@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import logo from './assets/img/bridgelabz.png'
 
 class App extends React.Component{
 
@@ -13,6 +14,8 @@ class App extends React.Component{
     return(
       <div className='App'>
       <h1>{this.state.title}</h1>
+      <img src={logo}
+      alt="The bridgelabz logo: a bridge to Employee lab works"/>
       </div>
     );
   }
