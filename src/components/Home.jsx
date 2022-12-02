@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
 import logo from '../assets/img/bridgelabz.png'
-import Switch from 'react-router-dom'
-
 
 class Home extends React.Component{
   url="https://www.bridgelabz.com";
